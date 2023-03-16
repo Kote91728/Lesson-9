@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+main{
+    padding-bottom: 100px;
+    padding-top: 100px;
+    background-color: mediumblue;
+    /* display: flex; */
+}
+.boxes div{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxes p{
+    font-size: 23px;
+    font-weight: bold;
+    color: mediumblue;
+}
+.loren{
+    grid-area: loren;
+}
+.culpa{
+    grid-area: culpa;
+}
+.officia{
+    grid-area: officia;
+}
+.mollit{
+    grid-area: mollit;
+}
+.fugiat{
+    grid-area: fugiat;
+}
+.exercitation{
+    grid-area: exercitation;
+}
+.magna{
+    grid-area: magna;
+}
+.laboris{
+    grid-area: laboris;
+}
+.ullamco{
+    grid-area: ullamco;
+}
+.consectetur{
+    grid-area: consectetur;
+}
+.pariatur{
+    grid-area: pariatur;
+}
+.dolore{
+    grid-area: dolore;
+}
+.excepteur{
+    grid-area: excepteur;
+}
+.boxes{
+    background-color: mediumblue;
+    margin: auto;
+    max-width: 1440px;
+    display: grid;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-areas:
+        "loren culpa officia officia"
+        "loren mollit mollit fugiat"
+        "exercitation magna laboris fugiat"
+        "ullamco ullamco laboris consectetur"
+        "pariatur dolore dolore excepteur";
+    gap: 20px;
+}
